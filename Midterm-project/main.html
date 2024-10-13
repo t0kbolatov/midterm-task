@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+<body>
+
+
+    <header class="header">
+        <a href="main.html" class="logo"><span>Bekzat TB</span></a>
+
+        <ul class="nav-links">
+            <li><a href="family.html">Family</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars"></i> 
+
+        <button class="visit-button">Visit Git</button>
+
+    </header>
+
+    <!--About me-->
+    
+    <section class="about" id="about">
+
+        <div class="about-container">
+
+            <img src="photos/profile.jpg" alt="">
+
+            <div class="info-box">
+                <h3>Hello, Dear Visiter</h3>
+                <h1>I'm Bekzat Tokbolat</h1>
+                <span class="multiple-text">Future IT specialist. Second year student of SDU Uni</span>
+
+
+
+                <div class="socials">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer" id="footer-container">
+            <div class="socialsfff">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://web.telegram.org/a/"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+
+            <div class="footerNav">
+                <ul>
+                    <li><a href="family.html">Family</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footerBottom">
+
+                <p>Copyright &copy;2024; Designed by <span class="designer">Bekzat</span></p>
+
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
